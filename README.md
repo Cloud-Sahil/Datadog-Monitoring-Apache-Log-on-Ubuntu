@@ -49,7 +49,7 @@ sudo datadog-agent version
 Edit the main Datadog configuration:
 
 ```bash
-sudo nano /etc/datadog-agent/datadog.yaml
+sudo vim /etc/datadog-agent/datadog.yaml
 ```
 
 Enable logs by adding:
@@ -73,7 +73,7 @@ sudo cp /etc/datadog-agent/conf.d/apache.d/conf.yaml.example /etc/datadog-agent/
 Edit the configuration:
 
 ```bash
-sudo nano /etc/datadog-agent/conf.d/apache.d/conf.yaml
+sudo vim /etc/datadog-agent/conf.d/apache.d/conf.yaml
 ```
 
 Add the following content:
