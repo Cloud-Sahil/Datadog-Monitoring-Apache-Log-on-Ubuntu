@@ -10,3 +10,12 @@ This guide explains how to install the Datadog Agent on an Ubuntu server, config
 * `sudo` privileges on the server
 
 ---
+## EC2 
+### `script` apache install
+~~~sh
+#!/bin/bash
+apt update -y
+apt install apache2 -y
+systemctl start apache2
+systemctl enable apache2
+~~~
