@@ -11,7 +11,7 @@ This guide explains how to install the Datadog Agent on an Ubuntu server, config
 
 ---
 ## EC2 
-### `script` apache install
+### `script` apache install = Advanced details (EC2)
 ~~~sh
 #!/bin/bash
 apt update -y
